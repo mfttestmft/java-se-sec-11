@@ -25,7 +25,7 @@ import java.time.LocalDate;
 public class Myapp extends Application{
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FlowPane pane=new FlowPane();
+        FlowPane pane=new FlowPane(); //flow pane
         Scene scene=new Scene(pane , 400,400);
         pane.requestFocus();
 
